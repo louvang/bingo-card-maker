@@ -12,7 +12,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/print',
-    element: <Print />,
+    element: <Print amount={4} />,
   },
 ]);
 
